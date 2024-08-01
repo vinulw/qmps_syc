@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.linalg import eig
-import scipy.sparse.linalg.eigen.arpack as arp
+import scipy.sparse.linalg as arp
 import cirq
 from ncon import ncon
 from circuits import StateAnsatzRepeatedXZ
